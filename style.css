@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* Remove this bg-color (not needed) */
+    background-color: #28223f;
+}
+
+/* Skills tab styling */
+ul li {
+    border: 1px solid #2d2747;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 7px 7px 0;
+    padding: 7px;
+    overflow: hidden;
+}
+
+ul li:hover {
+    cursor: pointer;
+    background: #03bfcb;
+    color: #000;
+    transition: background .3s ease-in-out;
+}

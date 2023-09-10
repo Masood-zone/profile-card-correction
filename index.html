@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card Component</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div
+        class="w-[350px] relative mt-4 pt-[30px] text-[#b3b8cd] shadow-xl rounded-lg bg-[#231e39] max-w-full text-center mx-auto overflow-hidden">
+        <span
+            class="text-[#231e39] bg-[#febb0b] rounded text-[14px] font-bold py-1 px-4 absolute top-[30px] left-[30px]">SNR.</span>
+        <div class="w-[130px] mx-auto">
+            <img src="./images/profile_pic.jpg" class="rounded-full border-2 border-[#03bfcb] p-3" alt="user" />
+        </div>
+        <h3 class="mt-2 font-medium text-xl">Ricky John</h3>
+        <h6 class="mt-1uppercase text-[14px]">Accra, Ghana</h6>
+        <p class=" leading-5 text-[16px] my-5">
+            Full-stack web developer and <br />
+            Python AI / ML Enthusiast
+        </p>
+        <div class="flex justify-center">
+            <button class="py-[10px] bg-[#03bfcb] text-[#231e39] px-[25px] rounded-[3px]">
+                Message
+            </button>
+            <button
+                class="py-[10px] transparent text-[#02899c] px-[25px] border-2 border-[#03bfcb] rounded-[3px] ml-[5px]">
+                Following
+            </button>
+        </div>
+        <div class="text-left p-[15px] mt-[30px] bg-[#1f1a36] ">
+            <h6 class="font-medium mb-1">Skills</h6>
+            <ul class="list-none m-0 p-0">
+                <li>UI /UX</li>
+                <li>Front End Development</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
